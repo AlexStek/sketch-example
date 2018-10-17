@@ -26,7 +26,6 @@ function signature (options) {
         touchmove: function() {
             if (this.dragging) {
                 var touch = this.touches[0];
-                this.lineWidth = 3;
                 this.beginPath();
                 this.moveTo(touch.ox, touch.oy);
                 this.lineTo(touch.x, touch.y);
