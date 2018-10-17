@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://rawgithub.com/soulwire/sketch.js/master/js/sketch.min.js"></script>
+
+    
+    <div id="container" width="500" height="300"></div>
+    <button class="js-clear-sketch">clear</button>
+    <button class="js-save-sketch">save</button>
+
+
+    <script src="./signature.js"></script>
+    <script>
+        signature({
+            // strokeColor: '#000000',
+            // strokeWidth:  5,
+            // width: 500,
+            // height: 250,
+            // clearBtnSelector: ".js-clear-sketch",
+            // saveBtnSelector: ".js-save-sketch",
+            // containerId: "container",
+
+            // url is required
+            url: '/save'
+        })
+    </script>
+</body>
+</html>
